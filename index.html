@@ -17,7 +17,7 @@
     </div>
 
     <script>
-        fetch('https://xa7qlsf5n4.execute-api.eu-north-1.amazonaws.com/dev/counter')
+        fetch('https://xa7qlsf5n4.execute-api.eu-north-1.amazonaws.com/prod/counter')
             .then(response => response.json())
             .then(data => {
                 document.getElementById('counter').innerText = data.visits;
